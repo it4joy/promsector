@@ -1,5 +1,7 @@
 'use strict';
 
+console.log('NOTE: This server outputs data from hard-coded URL.\n=======\n');
+
 const rssParser = require('rss-parser');
 const parser = new rssParser();
 const url = 'https://news.google.com/rss?hl=en-US&gl=US&ceid=US:en';
